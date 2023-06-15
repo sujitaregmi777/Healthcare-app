@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DC6389A6"
+    tools:context=".buymedicine_details">
+
+    <TextView
+        android:id="@+id/TextViewmed1"
+        android:layout_width="349dp"
+        android:layout_height="75dp"
+        android:drawablePadding="10dp"
+        android:ems="5"
+        android:text="@string/_24_7_health_care"
+        android:textColor="#292729"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.338"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+
+    <TextView
+        android:id="@+id/TextViewmed2"
+        android:layout_width="284dp"
+        android:layout_height="59dp"
+        android:drawablePadding="10dp"
+        android:ems="5"
+        android:text="Buy Medicine"
+        android:textColor="#7D248C"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <EditText
+        android:id="@+id/editTextMedName"
+        android:layout_width="353dp"
+        android:layout_height="417dp"
+        android:background="#DDECEA"
+        android:drawableBottom="@drawable/login_background"
+        android:drawablePadding="10dp"
+        android:hint="Hi\n hello"
+        android:textColor="#121313"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.501" />
+
+    <TextView
+        android:id="@+id/tvmed3"
+        android:layout_width="191dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="10dp"
+        android:ems="5"
+        android:text="Total Cost"
+        android:textColor="#7D248C"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.861" />
+
+    <Button
+        android:id="@+id/buymed"
+        android:layout_width="158dp"
+        android:layout_height="59dp"
+        android:drawablePadding="10dp"
+        android:onClick="link"
+        android:text="Buy"
+        android:textColor="#191818"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/backmed"
+        android:layout_width="158dp"
+        android:layout_height="59dp"
+        android:drawablePadding="10dp"
+        android:onClick="link"
+        android:text="Back"
+        android:textColor="#191818"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Healthcare System</string>
+    <string name="welcome_text">Welcome to</string>
+    <string name="_24_7_health_care">24*7 health care</string>
+    <string name="username">username</string>
+    <string name="sign_up">Sign up</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="image_desc">Health care illustration</string>
+    <string name="back">BACK</string>
+    <string name="health_articles">Health Articles</string>
+    <string name="health_article">HEALTH ARTICLE</string>
+</resources>

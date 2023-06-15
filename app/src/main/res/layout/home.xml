@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DC6389A6"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_24_7_health_care"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#1E1D1E"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <!-- Health Article Button -->
+
+    <!-- Find Doctor Button -->
+
+    <Button
+        android:id="@+id/btnHealthArticle"
+        android:layout_width="184dp"
+        android:layout_height="204dp"
+        android:layout_marginTop="50dp"
+        android:drawableTop="@drawable/baseline_article_24"
+        android:gravity="center"
+        android:text="@string/health_article"
+        app:layout_constraintEnd_toStartOf="@id/btnFindDoctor"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle" />
+
+    <!-- Buy Medicine Button -->
+
+    <!-- Logout Button -->
+
+    <Button
+        android:id="@+id/btnFindDoctor"
+        android:layout_width="178dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="48dp"
+        android:drawableTop="@drawable/baseline_message_24"
+        android:gravity="center"
+        android:text="FIND DOCTORS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@id/btnHealthArticle"
+        app:layout_constraintTop_toBottomOf="@id/textViewTitle" />
+
+    <Button
+        android:id="@+id/btnBuyMedicine"
+        android:layout_width="179dp"
+        android:layout_height="212dp"
+        android:layout_marginTop="64dp"
+        android:drawableTop="@drawable/outline_admin_meds_24"
+        android:gravity="center"
+        android:text="BUY MEDICINE"
+        app:layout_constraintEnd_toStartOf="@id/btnLogout"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnHealthArticle" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="187dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="56dp"
+        android:drawableTop="@drawable/outline_account_circle_24"
+        android:gravity="center"
+        android:text="LOG OUT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toEndOf="@id/btnBuyMedicine"
+        app:layout_constraintTop_toBottomOf="@id/btnFindDoctor" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
